@@ -1,0 +1,63 @@
+
+.task{
+  border-bottom: 1px solid #2980b9;
+  color: #fff;
+  background: #3498db;
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: 10fr 1fr;
+  cursor: pointer;
+}
+
+.task-container{
+  padding: 5px;
+  display: grid;
+/*   grid-auto-rows: minmax(20px, auto); */
+  grid-template-columns: 0fr 1fr;
+}
+
+.task-container .check-mark{
+  padding: 8px 10px 0;
+  opacity: 0;
+}
+
+
+/* When a task is marked as done. */
+.done{
+  background: #2980b9;
+  border-bottom: 1px solid #3498db; 
+}
+
+.done p{
+  text-decoration: line-through;
+}
+
+.done .check-mark{
+  opacity: 1;
+  text-decoration: none !important;
+}
+
+
+.task-container p{
+  display: inline;
+  padding-top: 5px;
+}
+
+.task:hover{
+  background: #2980b9;
+  border-bottom: 1px solid #3498db;
+}
+
+.close-btn-container{
+  text-align: center;
+  padding-top: 10px;
+}
+
+
+.close-btn-container:hover{
+  background: #e74c3c;
+}
+
+.remove-mark{
+  cursor: pointer;
+}

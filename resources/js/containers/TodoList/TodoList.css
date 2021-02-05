@@ -1,0 +1,8 @@
+
+.wrapper{
+  display: grid;
+  grid-template-columns: .6fr;
+  grid-row-gap: 1em;
+  padding-top: 50px;
+  justify-content: center;
+}

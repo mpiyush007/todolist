@@ -1,0 +1,14 @@
+
+.taskListContainer{
+  display: grid;
+  justify-content: stretch;
+  grid-template-columns: 1fr;
+  grid-auto-rows: minmax(40px, auto);
+}
+
+.noTask{
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 20px;
+}
